@@ -9,6 +9,12 @@
         "$ref": "swodlr-job#"
       }
     },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "$ref": "swodlr-input#"
+      }
+    },
     "waiting": {
       "type": "boolean"
     }
