@@ -10,9 +10,11 @@
       }
     },
     "inputs": {
-      "type": "array",
-      "items": {
-        "$ref": "swodlr-input#"
+      "type": "object",
+      "patternProperties": {
+        "*": {
+          "$ref": "swodlr-input#"
+        }
       }
     },
     "waiting": {
