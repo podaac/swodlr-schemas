@@ -12,7 +12,7 @@
     "inputs": {
       "type": "object",
       "patternProperties": {
-        "*": {
+        "+.": {
           "$ref": "swodlr-input#"
         }
       }
