@@ -23,6 +23,6 @@
   },
   "additionalProperties": false,
   "required": [
-    "jobs"
+    "jobs", "inputs"
   ]
 }
