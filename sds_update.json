@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "swodlr-sds-update",
+  "type": "object",
+  "properties": {
+    "job_id": {"type": "string"},
+    "status": {"type": "string"},
+    "products_staged": {"type": "array"}
+  },
+  "required": ["job_id", "status", "products_staged"]
+}
