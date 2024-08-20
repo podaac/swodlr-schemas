@@ -18,6 +18,9 @@
       "type": "integer",
       "minimum": 0
     },
+    "crid": {
+      "type": "string"
+    },
     "output_granule_extent_flag": {
       "type": "boolean"
     }
@@ -92,6 +95,7 @@
     "cycle",
     "pass",
     "scene",
+    "crid",
     "output_granule_extent_flag",
     "output_sampling_grid_type",
     "raster_resolution"
